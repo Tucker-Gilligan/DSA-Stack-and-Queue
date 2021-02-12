@@ -1,0 +1,44 @@
+almost like "worse" versions of arrays and linked-lists
+stacks-like a stack of plates
+---can only take a plate off the top
+---you'll never take a place from the middle or bottom
+---if you want to add you can only add to the top
+
+implement with
+-linked list with a tail pointer
+-arrays
+
+
+used when creating programming languages
+
+
+push add an item to top of stack
+pop remove item from the top of the stackk
+peek - see the top of the stack
+both O(1)
+
+empty
+
+
+
+=======================================================
+stacks - always working from the top of the stack
+queues - working on both ends
+****line for food - first in first out
+***earlier you join the queue, earlier you get out of the queue
+***added to the back, removed from the front
+
+
+Ring Buffer - ensures we get O(1) access on both endsd
+--Array with a head and tail pointer, which wraps at the ends
+adding - tail pointer moves further right
+deleting - head pointer moves further right
+
+tail pointer can wrap around edges of array 
+to get back to the start
+
+
+enqueue: add an item to the end of the queue
+dequeue: remove an item from the start of the queue
+O(1)
+
